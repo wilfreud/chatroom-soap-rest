@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Client {
     public static void main(String[] args) {
         try {
-            QName qname = new QName("http://dev.commodore64/", "ChatServiceImplService");
+            QName qname = new QName("http://localhost:8080/", "chat");
             Service service = Service.create(new URL("http://localhost:8080/chat?wsdl"), qname);
             ChatService chat = service.getPort(ChatService.class);
 

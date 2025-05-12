@@ -4,7 +4,7 @@ import jakarta.jws.WebService;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebService(endpointInterface = "dev.commodore64.ChatService")
+@WebService(endpointInterface = "soap.ChatService")
 public class ChatServiceImpl implements ChatService {
     private final List<String> messages = new ArrayList<>();
 
