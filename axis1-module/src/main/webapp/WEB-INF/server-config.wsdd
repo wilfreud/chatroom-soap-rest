@@ -1,6 +1,6 @@
 <deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
     <service name="ChatService" provider="java:RPC">
-        <parameter name="className" value="com.chatroom.axis1.ChatServiceImpl"/>
+        <parameter name="className" value="com.chatroom.ChatServiceImpl"/>
         <parameter name="allowedMethods" value="*"/>
     </service>
 </deployment>

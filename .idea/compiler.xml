@@ -9,6 +9,7 @@
         <module name="client-module" />
         <module name="rest-module" />
         <module name="axis2-module" />
+        <module name="axis1-module" />
       </profile>
     </annotationProcessing>
   </component>
