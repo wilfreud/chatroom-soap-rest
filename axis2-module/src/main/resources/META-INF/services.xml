@@ -1,0 +1,10 @@
+<service name="ChatService">
+    <description>Chatroom Service</description>
+    <parameter name="ServiceClass">com.chatroom.ChatServiceImpl</parameter>
+    <operation name="sendMessage">
+        <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+    </operation>
+    <operation name="getMessages">
+        <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+    </operation>
+</service>
