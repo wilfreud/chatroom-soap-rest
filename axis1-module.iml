@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/axis1-module" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/axis1-module/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/axis1-module/src/test/java" isTestSource="true" />
+    </content>
+  </component>
+</module>

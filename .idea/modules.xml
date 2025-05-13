@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/axis1-module.iml" filepath="$PROJECT_DIR$/axis1-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/chatroom-soap-rest.iml" filepath="$PROJECT_DIR$/chatroom-soap-rest.iml" />
     </modules>
   </component>

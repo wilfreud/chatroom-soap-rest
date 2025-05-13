@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chatroom-soap-rest" />
+        <module name="client-module" />
+        <module name="rest-module" />
+        <module name="axis2-module" />
       </profile>
     </annotationProcessing>
   </component>
